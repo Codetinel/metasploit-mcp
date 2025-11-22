@@ -44,3 +44,10 @@ docker run -d -p 8080:8080 \
 ```
 
 If you don't set `MSF_PASSWORD`, a random password will be generated and displayed in the container logs.
+
+## Connecting to the MCP Server
+
+Once the container is running, the MCP server is available at:
+
+- **MCP SSE Endpoint**: `http://localhost:8080/sse`
+- **API Documentation**: `http://localhost:8080/docs`
